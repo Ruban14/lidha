@@ -1,0 +1,37 @@
+<nav class="navbar navbar-default navbar-pp">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-9 col-xs-12 set-resize-large offspace-left-25">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse remove-padd-left">
+                    <ul class="nav navbar-nav">
+                        <li (click)="navigateTo('')" class="active"><a>Home</a></li>
+                        <li (click)="navigateTo('about')"><a>About</a></li>
+                        <li (click)="navigateTo('services')"><a>services</a></li>
+                        <li (click)="navigateTo('gallery')"><a>Gallery</a></li>
+                        <li (click)="navigateTo('blog')"><a>Blog</a></li>
+                        <li (click)="navigateTo('contact')"><a>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-3 set-resize-medium hidden-xs text-right">
+                <div class="search-bar text-right">
+                    <p class="inner-search">
+                        <input id="search" name="search" type="search">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</nav>

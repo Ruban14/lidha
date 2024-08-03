@@ -1,0 +1,31 @@
+<div id="page">
+  <!---header top---->
+
+  <!--header--->
+    <app-header></app-header>
+    <app-nav></app-nav>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+
+  <!--back to top--->
+  <a style="display: none;" href="javascript:void(0);" class="scrollTop back-to-top" id="back-to-top">
+      <span><i aria-hidden="true" class="fa fa-angle-up fa-lg"></i></span>
+      <span>Top</span>
+  </a>
+
+</div>
+<script src="assets/js/mislider.js" type="text/javascript"></script>
+<script type="text/javascript">
+  jQuery(function ($) {
+      var slider = $('.mis-stage').miSlider({
+          stageHeight: 380,
+          slidesOnStage: false,
+          slidePosition: 'center',
+          slideStart: 'mid',
+          slideScaling: 150,
+          offsetV: -5,
+          centerV: true,
+          navButtonsOpacity: 1,
+      });
+  });
+</script>

@@ -1,0 +1,237 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+bower_components/
+Website
+# Angular specific files
+.angular/cache/
+.angular/cli/
+.angular
+
+# Compiled source files
+dist/
+build/
+out-tsc/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Debug log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+src/environments/*.local.ts
+
+# Compiled JavaScript files
+*.js
+*.d.ts
+
+# Compiled CSS files
+*.css
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Compiled output
+*.out
+
+# Project directories
+.idea/
+.project
+.classpath
+.cproject
+
+# WebStorm
+*.iml
+
+# Local History
+.localhistory
+
+# Logs
+logs
+*.log
+
+# Windows
+*.lnk
+
+# Mac OS
+*.DS_Store
+
+# Environment variable files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Ignore npm global installs
+npm-global/
+
+# Ignore TypeScript output
+*.tsbuildinfo
+
+# Ignore Angular service worker files
+ngsw-config.json
+ngsw-worker.js
+worker-basic.min.js
+worker-advanced.min.js
+
+# Ignore generated documentation files
+documentation/
+docs/
+
+# Ignore Angular translations
+*.xlf
+
+# Ignore specific IDE config files
+*.idea/
+*.iml
+*.vscode/
+
+# Ignore npm/yarn/pnpm logs
+yarn-error.log
+npm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignore parcel cache
+.cache/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore built files
+built/
+
+# Ignore node-repl history
+.node_repl_history
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask specific
+instance/
+.webassets-cache
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Local database
+*.sqlite3
+*.db
+
+# Flask cache and session files
+flask_session/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Debug log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node.js dependencies
+node_modules/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore built files
+built/
+
+# Ignore node-repl history
+.node_repl_history
+
+# Output of the coverage tool coverage.py, generated with `coverage run` and `coverage report`
+.coverage
+htmlcov/
