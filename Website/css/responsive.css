@@ -1,0 +1,350 @@
+/*
+Template Name: beautilicious
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+/* Landscape phones and smaller */
+@media (min-width: 1199px) and (max-width: 1240px) {}
+@media (min-width: 1200px) {
+    .offspace-left-25{
+        margin-left: 25%;
+    }
+}
+@media (max-width: 1199px) {
+    .middle-header-block-equal-set ul{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .middle-header-block-equal-set li{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .set-resize-large{
+        width: 66.6667%
+    }
+    .set-resize-medium{
+        width: 25%;
+    }
+    .offspace-left-25{
+        margin-left: 8.33333%;
+    }
+    .footer-details > h4, .tag-list h3 {
+        font-size: 17px;
+        letter-spacing: 1px;
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer-details > h4, .tag-list h3 {
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
+    .footer-links li a, .time-schedule-list li{
+        letter-spacing: 1px;
+    }
+    .insta-block {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-nav li + li {
+        margin-left: 10px;
+    }
+    .search-bar{
+        margin-top: 6px;
+    }
+    .section-padding {
+        padding-top: 70px;
+    }
+    footer{
+        margin-top: 70px;
+    }
+    .section-small-padding{
+        padding-top: 40px;
+    }
+    .appointment-block-inner{
+        padding: 40px 0;
+    }
+    .offspace-70{
+        margin-top: 50px;
+    }
+    .section-heading > h2{
+        font-size: 24px;
+    }
+    .service-block .mt-25{
+        margin-top: 30px;
+    }
+    .appointement-link-btn {
+        font-size: 17px;
+        letter-spacing: 1px;
+        padding: 20px;
+    }
+    .appointment-block-inner h3{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .appointment-block-inner p{
+        font-size:15px;
+    }
+    .grid figure figcaption{
+        padding-top: 0.4em;
+        padding-bottom: 0.4em;
+    }
+    figure.effect-goliath h4{
+        font-size: 16px;
+    }
+    figure.effect-goliath p,  .news-image-footer-text li > a{
+        font-size: 14px;
+    }
+    .information{
+        margin-bottom: 25px;
+    }
+    .information h1{
+        margin: 20px 0;
+    }
+    .fun-fact-block .row > div:nth-last-child(-n+2) .information {
+        margin-bottom: 0;
+        border-top: 1px dashed #ddd;
+        padding-top: 20px;
+    }
+    .icon-block img {
+        max-width: 50px;
+    }
+    .mis-slider figcaption span{
+        line-height: 1.8em;
+    }
+    .news-image-footer-text > h3{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .news-image-footer-text li > a span, .news-image-footer-text li > a + a{
+        margin-left: 2px;
+    }
+}
+@media (max-width: 767px) {
+    body{
+        font-size: 13px;
+    }
+    .top-header{
+        padding: 0;
+    }
+    .social-grid li a{
+        width: 24px;
+    }
+    .middle-header-block-equal-set ul li > p, .navbar-default .navbar-nav > li > a{
+        font-size: 15px;
+    }
+    .middle-header-block-equal-set ul li:last-child {
+        margin-top: 12px;
+    }
+    .middle-header-block-equal-set{
+        margin-top: 0;
+    }
+    .remove-padd-left{
+        padding-left: 15px;
+    }
+    .navbar-nav li + li {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .nav > li > a{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+        background-color: rgba(0,0,0,0);
+    }
+    .section-padding, .section-small-padding {
+        padding-top: 40px;
+    }
+    footer{
+        margin-top: 40px;
+    }
+    .welcome-block{
+        padding-bottom: 40px;
+    }
+    .offspace-70{
+        margin-top: 30px;
+    }
+    .section-heading > h2{
+        font-size: 19px;
+    }
+    .service-block .mt-25{
+        margin-top: 30px;
+    }
+    .welcome-block p, .appointment-block-inner p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .service-block .mt-25{
+        margin-top: 0;
+    }
+    .service-details {
+        margin-bottom: 15px;
+    }
+    .service-block .mt-25 + .mt-25 .service-details{
+        margin-bottom: 0;
+    }
+    .gallery-image{
+        margin-bottom: 20px;
+    }
+    .appointment-block-inner h3{
+        font-size: 20px;
+    }
+    .set-center{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .appointement-link-btn {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    .grid figure figcaption{
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+    .staff-block .offspace-70, .fun-fact-block .offspace-40, .news-block .offspace-40 {
+        margin-top: 0;
+    }
+    .fun-fact-block .row > div:nth-last-child(-n+2) .information {
+        margin-bottom: 25px;
+        border-top: none;
+        padding-top: 0px;
+    }
+    .fun-fact-block .row > div:nth-last-child(-n+1) .information {
+        margin-bottom: 0;
+
+    }
+    .news-image-footer-text li > a{
+        font-size: 13px;
+    }
+    .news-block p.news-para {
+        font-size: 15px;
+        margin: 20px 0;
+        text-align: left;
+    }
+    .news-listing > div:nth-last-child(-n+2){
+        margin-bottom: 40px;
+    }
+    .news-listing > div:nth-last-child(-n+1){
+        margin-bottom: 0px;
+    }
+    .offspace-20{
+        margin-top: 0;
+    }
+    .welcome-block .offspace-20, .about-image{
+        margin-top: 20px;
+    }
+    .book-form input{
+        height: 32px;
+    }
+    .book-block-full-image{
+        padding: 40px 0;
+    }
+    .section-heading > p {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    .footer-details > h4, .tag-list h3{
+        font-size: 17px;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+    .footer-links li + li, .time-schedule-list li + li{
+        margin-top: 8px;
+    }
+    .footer-links li a, .time-schedule-list li{
+        letter-spacing: 1px;
+    }
+    footer .row > div {
+        margin-bottom: 25px;
+    }
+    .tag-list h3{
+        margin-top: 40px;
+    }
+    .copyright{
+        margin-top: 15px;
+    }
+    .about-block p, .advantage-block p{
+        line-height: 24px;
+    }
+    .about-block .offspace-40, .advantage-block .offspace-40{
+        margin-top: 30px;
+    }
+    .title-name h1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 23px;
+    }
+    .comment-form h3{
+        font-size: 20px;
+    }
+    .comment-form .comment:first-child {
+        margin-bottom: 20px;
+    }
+    .comment-form textarea{
+        min-height: 120px;
+    }
+    .single-blog-desc > p, .p_bq {
+        font-size: 15px;
+        line-height: 22px;
+        text-align: left;
+    }
+    .single-blog-footer div + div {
+        margin-top: 25px;
+    }
+    .nav.navbar-nav {
+        background: #000 none repeat scroll 0 0;
+        padding: 15px;
+    }
+
+}
+@media (min-width: 500px) and (max-width: 767px) {
+    .news-block p.news-para, .news-listing .read-more{
+        text-align: center;
+        max-width: 555px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block
+    }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+    .gallery-block .width-set-50, .width-set-50, .staff-block .grid{
+        width: 50%;
+    }
+}
+@media (max-width: 400px) {
+
+    .middle-header-block-equal-set ul li > p, .navbar-default .navbar-nav > li > a{
+        font-size: 14px;
+    }
+    .width-set-100 {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .middle-header-block-equal-set ul li:last-child{
+        margin-top: 0;
+    }
+    .social-grid li a{
+        width: 22px;
+    }
+    .media-left, .media-right{
+        display: block;
+        vertical-align: baseline;
+    }
+}
+@media (min-width: 365px) and (max-width: 767px) {}
+
+
+
+
+
+
+
+
